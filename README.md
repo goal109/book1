@@ -1,8 +1,8 @@
 #book1
 testreview
-#locally tested databas hence database url is not added here :)
-# to link postgres databas try this
-# engine = create_engine('postgresql://username:password@localhost:5432/databasename')
+locally tested databas hence database url is not added here :)
+ to link postgres databas try this
+engine = create_engine('postgresql://username:password@localhost:5432/databasename')
 
 First stage-
 Created login and sign up
