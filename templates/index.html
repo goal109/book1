@@ -1,0 +1,95 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Users
+{% endblock %}
+
+{% block body %}
+<header>
+    <h1>Reviews By Readers</h1>
+    <hr>
+  </header>
+
+  <div class="bs-example">
+     <ul class="nav nav-tabs" id="myTab">
+         <li class="active"><a data-toggle="tab" href="#sectionA">Section A</a></li>
+         <li><a data-toggle="tab" href="#sectionB">Section B</a></li>
+
+     </ul>
+     <div class="tab-content">
+         <div id="sectionA" class="tab-pane fade in active">
+
+
+            <h3>Sign In</h3>
+        {{message1}}
+            <form action="{{ url_for('login') }}" method="post">
+            <div class="form-group">
+                     <label>Username:
+                     <input class="form-control" name="uname" placeholder="Enter your username">
+                   </label>
+
+                 </div>
+
+                 <div class="form-group">
+                     <label>Password:
+                     <input class="form-control" type="password" name="upassword" placeholder="Create password">
+                   </label>
+
+                 </div>
+
+
+                 <div class="form-group">
+                     <button class="btn btn-primary">Sign In</button>
+                 </div>
+                 <div>
+                   <p class="alert alert-warning">{{message1}}</p>
+                 </div>
+
+            </form>
+
+
+         </div>
+         <div id="sectionB" class="tab-pane fade">
+           <h3>Register</h3>
+           <form action="{{ url_for('register') }}" method="post">
+    <div>
+      {{message}}
+    </div>
+           <div class="form-group">
+                    <label>Username:
+                    <input class="form-control" name="uname" placeholder="Enter your username">
+                  </label>
+                </div>
+
+                <div class="form-group">
+                    <label>Password:
+                    <input class="form-control" type="password" name="upassword" placeholder="Create password">
+                  </label>
+                </div>
+
+                <div class="form-group">
+                    <label>Full name:
+                    <input class="form-control" name="fname" placeholder="Enter your full name">
+                  </label>
+                </div>
+
+
+                <div class="form-group">
+                    <label>Email id:
+                    <input class="form-control" type="email" name="ename" placeholder="Enter your full name">
+                  </label>
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-primary">Register</button>
+                </div>
+
+           </form>
+
+
+     </div>
+ </div>
+
+
+
+{% endblock %}
