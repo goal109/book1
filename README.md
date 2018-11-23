@@ -12,3 +12,7 @@ Tweak to bs layout
 sorting books page by year or author
 adding form for review
 implementing session variable
+
+
+---for my info
+remaining code saved on bitbucket :)
