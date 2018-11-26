@@ -7,12 +7,18 @@ First stage-
 Created login and sign up
 added books list page where user can click on link and can go to that particular book page.
 
+
 --next implementation
 Tweak to bs layout
 sorting books page by year or author
 adding form for review
 implementing session variable
 
+(added new look to sign up & register added perfect session variable)
+
+--next implementation
+in progress 
+
 
 ---for my info
-remaining code saved on bitbucket :)
+code saved on bitbucket :)
