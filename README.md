@@ -15,6 +15,7 @@ adding form for review
 implementing session variable
 
 (added new look to sign up & register added perfect session variable)
+(scrapped 5000 imgs (not actual imgs :)) finally!!!
 
 --next implementation
 in progress 
