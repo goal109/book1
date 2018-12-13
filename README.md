@@ -21,7 +21,9 @@ day by day it becomming very messy :(, how the hell I gonna handle it.
 
 --next implementation
 in progress 
-
+---imp
+scrapping web data is illegal you may get banned by google,
+wasn't knowing this. Try & see if you want :(
 
 ---for my info
 code saved on bitbucket :)
