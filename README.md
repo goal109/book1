@@ -25,5 +25,8 @@ in progress
 scrapping web data is illegal you may get banned by google,
 wasn't knowing this. Try & see if you want :(
 
+
+---screwed-up everything so back to square one!!!
+
 ---for my info
 code saved on bitbucket :)
