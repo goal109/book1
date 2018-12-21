@@ -27,6 +27,9 @@ wasn't knowing this. Try & see if you want :(
 
 
 ---screwed-up everything so back to square one!!!
+---Finally, everything fall into place :)
+It's looking exactly the way I wanted.(clap*3) 
+
 
 ---for my info
 code saved on bitbucket :)
